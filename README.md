@@ -22,7 +22,9 @@ Installation
 3. Create a .env file and fill in environment variables with your credentials
 
    EMAIL_VALIDATION_API_KEY=your_email_validation_api_key
+
    SENDGRID_API_KEY=your_sendgrid_api_key
+   
    VERIFIED_SENDER=your_verified_sender_email
 
 5. Run the script
