@@ -13,13 +13,14 @@ Installation
 1. Clone the repository:
 
    git clone https://github.com/Ivarock/email-validation.git
+   
    cd your-repository-name
 
-2. Install dependencies
+3. Install dependencies
 
    composer install
 
-3. Create a .env file and fill in environment variables with your credentials
+4. Create a .env file and fill in environment variables with your credentials
 
    EMAIL_VALIDATION_API_KEY=your_email_validation_api_key
 
