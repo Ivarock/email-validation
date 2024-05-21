@@ -23,11 +23,11 @@ if ($response['state'] === 'deliverable') {
     $email->addTo($userEmail);
     $email->addContent("text/plain", "Hello world!");
 
-    $sendgrid = new \SendGrid($_ENV['SENDGRID_API_KEY']);
+    $sendgrid = new SendGrid($_ENV['SENDGRID_API_KEY']);
 
     try {
         $response = $sendgrid->send($email);
-        echo 'Message has been sent successfully. Status code: ' . $response->statusCode();
+        echo 'Message has been sent successfully.'
     } catch (Exception $exception) {
         echo "Message could not be sent. Error: {$exception->getMessage()}";
     }
