@@ -23,8 +23,8 @@ Installation
 
    EMAIL_VALIDATION_API_KEY=your_email_validation_api_key
    SENDGRID_API_KEY=your_sendgrid_api_key
-   VERIFIED_SENDER=your_verified_sender_email@example.com
+   VERIFIED_SENDER=your_verified_sender_email
 
-4. Run the script
+5. Run the script
 
    php your_script_name.php
